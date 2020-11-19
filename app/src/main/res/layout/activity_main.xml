@@ -26,7 +26,23 @@
                 android:id="@+id/rg_btn2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content" />
+            <RadioButton android:layout_weight="1"
+                android:id="@+id/rg_btn3"
+                android:text="양"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <RadioButton android:layout_weight="1"
+                android:text="쿼카"
+                android:id="@+id/rg_btn4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
         </RadioGroup>
+        <Button
+            android:id="@+id/btn_image"
+            android:text="사진보기"
+            android:layout_marginTop="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
     </LinearLayout>
 </LinearLayout>
 
